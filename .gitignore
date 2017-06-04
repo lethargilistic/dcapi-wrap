@@ -1,0 +1,4 @@
+dcapi.egg-info/*
+dcapi_wrap.egg-info/*
+__pycache__/*
+venv/*
