@@ -8,18 +8,17 @@ Usage
 
 .. code:: python
 
-    from dcapi import Dcapi
+    import dcapi
 
-    api = Dcapi()
-    character_by_name = api('Ai Haibara')
-    character_by_id = api(1)
+    character_by_name = dcapi.character('Ai Haibara')
+    character_by_id = dcapi.character(1)
 
 If you are using a self-hosted version of the api, you can specify your own
 endpoint and port.
 
 .. code:: python
 
-    from dcapi import Dcapi
+    import dcapi
 
-    api = Dcapi('127.0.0.1:8000')
+    api = dcapi.set_url('127.0.0.1:8000')
 
