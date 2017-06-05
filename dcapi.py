@@ -14,8 +14,12 @@ def set_url(url):
 
 def character(search):
     search_url = join(ROOT_URL, 'character', str(search))
-    json_dict = requests.get(search_url, headers=HEADERS).json()
-    return json_dict
+    response = requests.get(search_url, headers=HEADERS)
+    if response.status_code != 200:
+        raise ConnectionError('API endpoint returned status '
+                                + str(response.status_code))
+
+    return response.json()
 
 if __name__ == '__main__':
     #set_url('127.0.0.1:8000')
