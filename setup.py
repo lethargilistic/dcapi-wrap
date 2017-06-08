@@ -8,10 +8,10 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='dcapi',
-    version='0.0.1',
+    version='0.0.5',
     description='Wrapper for dcapi',
     long_description=long_description,
-    url='https://github.com/lethargilistic/dcapi_wrap',
+    url='https://github.com/lethargilistic/dcapi-wrap',
     author='Mike Overby',
     author_email='mikeoverby@outlook.com',
     license='MIT',
