@@ -1,5 +1,13 @@
 Wrapper for dcapi
 -----------------
+.. image:: https://img.shields.io/pypi/v/dcapi.svg
+    :target: https://img.shields.io/pypi/v/dcapi.svg
+
+.. image:: https://img.shields.io/pypi/l/dcapi.svg
+    :target: https://img.shields.io/pypi/l/dcapi.svg
+
+.. image:: https://img.shields.io/pypi/pyversions/oam-dl.svg
+    :target: https://img.shields.io/pypi/pyversions/oam-dl.svg
 
 A Python wrapper for the commands available in the dcapi REST API.
 
