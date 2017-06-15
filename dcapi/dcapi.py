@@ -4,7 +4,7 @@ from os.path import join
 
 #TODO: Break into separate standard settings module
 ROOT_URL = 'http://progdisc.club/~lethargilistic/proxy'
-HEADERS = {'User-Agent': 'dcapi-wrap'}#TODO: include github link 
+HEADERS = {'User-Agent': 'dcapi-wrap (https://github.com/lethargilistic/dcapi-wrap)'}
 
 def set_url(url):
     if urlparse(url):
@@ -22,6 +22,5 @@ def character(search):
     return response.json()
 
 if __name__ == '__main__':
-    #set_url('127.0.0.1:8000')
     print(character(0))
     print(character('Ai Haibara'))
