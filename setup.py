@@ -25,6 +25,6 @@ setup(
     ],
     keywords=['api'],
     packages=find_packages(),
-    install_requires=['requests==2.17.3',
+    install_requires=['requests==2.20.0',
                       'wheel==0.29.0'],
 )
